@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+html {
+  background-image: url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg");
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#foto {
+  width: 10rem;
+  border-radius: 100%;
+  border: 0.3rem solid black;
+}
+
+#foto:hover{
+  border: 0.3rem solid cornflowerblue;
+}
+
+#nombre:hover {
+  color: cornflowerblue;
+}
+
+
+#lista-enlaces {
+  list-style: none;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+.enlace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 12px;
+  border-radius: 100px;
+ }
+
+  .enlace:hover {
+    background-color: cornflowerblue;
+  }
+      .enlace:hover a{
+        color: black;
+      }
+      .enlace:hover i{
+        color: black;
+      }
+
+a {
+  list-style: none;
+  display: flex;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+}
+
+#lista-enlaces i {
+  padding-right: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+#lista-redes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+  .navbar .fab {
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+    .navbar .fab:hover {
+      color:cornflowerblue;
+    }
